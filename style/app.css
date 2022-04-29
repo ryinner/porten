@@ -14,7 +14,8 @@
 }
 
 /* Upheader */
-.upheader, header {
+
+.upheader, header, .tagline-bottom, .tag-description {
     font-family: "PT_Sans";
 }
 
@@ -56,13 +57,16 @@ header {
     background: #0f0f0f;
 }
 
+header .logo, .tagline {
+    color: #fff;
+    font-weight: bold;
+    font-family: "Post_No_Bills_Jaffna";
+}
+
 header .logo {
     padding: 8px;
-    color: #fff;
     font-size: 36px;
-    font-weight: bold;
     margin-left: -1px;
-    font-family: "Post_No_Bills_Jaffna";
 }
 
 nav {
@@ -77,3 +81,51 @@ nav {
     color: #fff;
     background: #1F1F1F;;
 }
+
+/* main */
+
+.main {
+    position: relative;
+}
+
+.main-img {
+    z-index: 1;
+    width: 100%;
+    pointer-events: none;
+}
+
+.tagline, .tag-description {
+    position: absolute;
+}
+
+.tagline {
+    top: 40%;
+    left: 50%;
+    z-index: 5;
+    padding: 75px;
+    transform: translate(-50%, -50%);
+    border: 3px solid #fff;
+}
+
+.tagline-logo {
+    font-size: 64px;
+    border-bottom: 2px solid #fff;
+}
+
+.tagline-bottom {
+    margin-top: 6px;
+    font-size: 26px;
+}
+
+.tag-description {
+    top: 70%;
+    left: 50%;
+    width: 60%;
+    color: #fff;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    transform: translate(-50%, 0);
+}
+
+/* collection */
