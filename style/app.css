@@ -13,16 +13,39 @@
     cursor: pointer;
 }
 
+.d-flex {
+    display: flex;
+}
+
+.p-20 {
+    padding: 93px 80px;
+}
+
+.pos-relative {
+    position: relative;
+}
+
+.pos-absolute {
+    position: absolute;
+}
+
+.img {
+    width: 100%;
+}
+
 /* Upheader */
 
-.upheader, header, .tagline-bottom, .tag-description {
+.upheader, header, .tagline-bottom, .tag-description, .adv button {
     font-family: "PT_Sans";
+}
+
+.upheader, .collection {
+    background: #000;
 }
 
 .upheader {
     padding: 12px;
     font-size: 12px;
-    background: #000;
 }
 
 .upheader a {
@@ -84,18 +107,9 @@ nav {
 
 /* main */
 
-.main {
-    position: relative;
-}
-
-.main-img {
-    z-index: 1;
+.main-img, .img {
     width: 100%;
     pointer-events: none;
-}
-
-.tagline, .tag-description {
-    position: absolute;
 }
 
 .tagline {
@@ -129,3 +143,76 @@ nav {
 }
 
 /* collection */
+
+.collection {
+    display: flex;
+    color: #fff;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.col-md-5-5 {
+    width: calc(100% / 12 * 5.5);
+}
+
+.col-md-6-5 {
+    width: calc(100% / 12 * 6.5);
+}
+
+.item__container {
+    padding: 50px 20px;
+    background: #191B1C;
+}
+
+.collection h2,  .collection h3, .collection h4 {
+    font-family: 'Playfair_Display';
+}
+
+.collection h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.collection hr {
+    margin: 40px auto;
+    width: 120px;
+}
+
+.adv {
+    top: 80%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.adv a, .old-adv a {
+    font-size: 18px;
+    border: 1px solid #fff;
+}
+
+.adv a {
+    padding: 16px 32px;
+}
+
+.item h3:not(:last-child) {
+    margin: 20px 0;
+}
+
+.old-adv {
+    text-align: center;
+}
+
+.old-adv a {
+    padding: 16px 48px;
+}
+
+.old-adv__description {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
