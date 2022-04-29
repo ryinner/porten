@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.container {
+.container, .container-footer {
     margin: 0 auto;
     width: 60%;
 }
@@ -35,7 +35,7 @@
 
 /* Upheader */
 
-.upheader, header, .tagline-bottom, .tag-description, .adv button {
+.upheader, header, .tagline-bottom, .tag-description, .adv button, .categories-item, .form__description, .input-group a, .underfooter {
     font-family: "PT_Sans";
 }
 
@@ -169,7 +169,7 @@ nav {
     background: #191B1C;
 }
 
-.collection h2,  .collection h3, .collection h4, .new-goods h1 {
+.collection h2,  .collection h3, .collection h4, .new-goods h1, .footer-info h2  {
     font-family: 'Playfair_Display';
 }
 
@@ -238,5 +238,58 @@ nav {
 .brands {
     color: #fff;
     padding: 60px 0 40px;
+    background: #0F0F0F;
+}
+
+/* footer */
+
+.footer-info {
+    width: 100%;
+    padding: 80px;
+    color: #fff;
+}
+
+.footer-info h2 {
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.footer-info-left, .footer-info-center, .footer-info-right {
+    width: 30%;
+}
+
+.categories-item {
+    padding: 10px 20px;
+    margin: 6px;
+    background: #0F0F0F;
+}
+
+.form__description {
+    margin-bottom: 40px;
+}
+
+.email {
+    height: 38px;
+    width: 210px;
+    padding: 10px;
+    border: none;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.email::placeholder {
+    color: #d3d3d3;
+}
+
+.subscribe {
+    color: #fff;
+    padding: 6px 20px;
+    background: #000;
+}
+
+/* underfooter */
+
+.underfooter {
+    padding: 10px;
+    color: #d0d0d0;
     background: #0F0F0F;
 }
