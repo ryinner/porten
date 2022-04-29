@@ -4,24 +4,42 @@
     box-sizing: border-box;
 }
 
+.container {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+/* Upheader */
+.upheader, header {
+    font-family: "PT_Sans";
+}
+
 .upheader {
     padding: 12px;
     font-size: 12px;
     background: #000;
-    font-family: "PT_Sans";
 }
 
 .upheader a {
     text-decoration: none;
 }
 
-.upheader, .upheader a {
-    color: gray;
+.upheader-icon {
+    margin-bottom: -2px;
 }
 
-.upheader, .upheader__left, .upheader__right {
+header, .upheader, .upheader a {
+    color: #969696;
+}
+
+nav, .container, .upheader__left, .upheader__right {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .upheader__right-item:first-child {
@@ -32,6 +50,30 @@
     margin: 0 8px;
 }
 
-.upheader-icon {
-    margin-bottom: -2px;
+/* Header */
+
+header {
+    background: #0f0f0f;
+}
+
+header .logo {
+    padding: 8px;
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: -1px;
+    font-family: "Post_No_Bills_Jaffna";
+}
+
+nav {
+    margin-right: -15px;
+}
+
+.nav-btn {
+    padding: 20px;
+}
+
+.nav-btn:hover {
+    color: #fff;
+    background: #1F1F1F;;
 }
