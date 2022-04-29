@@ -1,3 +1,4 @@
+/* PT Sans */
 @font-face {
     font-family: "PT_Sans";
     src: url('../fonts/PT_Sans/PTSans-Regular.ttf');
@@ -23,5 +24,51 @@
     font-family: "PT_Sans";
     src: url('../fonts/PT_Sans/PTSans-BoldItalic.ttf');
     font-style: italic;
+    font-weight: bold;
+}
+
+/* PLAYFAIR DISPLAY */
+
+@font-face {
+    font-family: "Playfair_Display";
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Playfair_Display";
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf');
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Playfair_Display";
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf');
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Playfair_Display";
+    src: url('../fonts/Playfair_Display/static/PlayfairDisplay-BoldItalic.ttf');
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Post No Bills Jaffna */
+
+@font-face {
+    font-family: "Post_No_Bills_Jaffna";
+    src: url('../fonts/post-no-bills-jaffna-cufonfonts-webfont/PostNoBillsJaffna-Regular.woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Post_No_Bills_Jaffna";
+    src: url('../fonts/post-no-bills-jaffna-cufonfonts-webfont/PostNoBillsJaffna-Bold.woff');
+    font-style: normal;
     font-weight: bold;
 }
