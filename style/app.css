@@ -3,3 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.upheader {
+    padding: 12px;
+    font-size: 12px;
+    background: #000;
+    font-family: "PT_Sans";
+}
+
+.upheader a {
+    text-decoration: none;
+}
+
+.upheader, .upheader a {
+    color: gray;
+}
+
+.upheader, .upheader__left, .upheader__right {
+    display: flex;
+    justify-content: space-around;
+}
+
+.upheader__right-item:first-child {
+    margin-right: 4px;
+}
+
+.upheader__left-item:not(:first-child) {
+    margin: 0 8px;
+}
+
+.upheader-icon {
+    margin-bottom: -2px;
+}
