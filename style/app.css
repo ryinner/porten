@@ -178,7 +178,7 @@ nav {
     text-align: center;
 }
 
-.collection hr, .new-goods hr{
+.collection hr, .new-goods hr, .brands hr {
     margin: 40px auto;
     width: 120px;
 }
@@ -221,14 +221,22 @@ nav {
 
 .new-goods {
     color: #fff;
-    padding-top: 120px;
+    padding: 120px 0;
 }
 
-.new-goods h1 {
+.new-goods h1, .brands h1 {
     font-size: 36px;
     text-align: center;
 }
 
 .new-goods .item {
     margin-top: 40px;
+}
+
+/* brands */
+
+.brands {
+    color: #fff;
+    padding: 60px 0 40px;
+    background: #0F0F0F;
 }
